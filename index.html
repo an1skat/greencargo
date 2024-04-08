@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Green Cargo</title>
+    <link
+      rel="shortcut icon"
+      href="./img/icons.svg#icon-logo"
+      type="image/x-icon"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -11,9 +16,219 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/main.min.css" />
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <svg class="logo" width="109" height="84">
+          <use href="./img/icons.svg#icon-logo"></use>
+        </svg>
+        <ul class="header__list list">
+          <li class="header__item">
+            <a href="" class="header__link link">
+              <svg class="header__svg" width="48" height="48">
+                <use href="./img/icons.svg#icon-telegram"></use>
+              </svg>
+              telegram
+            </a>
+          </li>
+          <li class="header__item">
+            <a href="" class="header__link link">
+              <svg class="header__svg" width="48" height="48">
+                <use href="./img/icons.svg#icon-whatsapp"></use>
+              </svg>
+              whatsapp
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero__title">
+            Придбати електромобіль з Китаю дешевше ринкової вартості
+          </h1>
+          <img src="./img/electric-car.jpg" alt="Electric car" />
+          <div class="hero__btn-container">
+            <button class="hero__btn">Придбати авто з пробігом</button>
+            <button class="hero__btn hero__btn--transparent">Придбати нове авто</button>
+          </div>
+        </div>
+      </section>
+      <section class="mileage">
+        <div class="container">
+          <ul class="mileage__list list">
+            <li class="mileage__item">
+              <img
+                src="./img/volkswagen-logo.jpg"
+                alt="Volkswagen logo"
+                class="mileage__img"
+              />
+              <h4 class="mileage__list-title">volkswagen</h4>
+            </li>
+            <li class="mileage__item">
+              <img
+                src="./img/audi-logo.jpg"
+                alt="Audi logo"
+                class="mileage__img mileage__img--margin"
+              />
+              <h4 class="mileage__list-title">audi</h4>
+            </li>
+            <li class="mileage__item">
+              <img
+                src="./img/mercedes-logo.jpg"
+                alt="Mercedes logo"
+                class="mileage__img"
+              />
+              <h4 class="mileage__list-title">mercedes-benz</h4>
+            </li>
+            <li class="mileage__item">
+              <img
+                src="./img/renault-logo.jpg"
+                alt="Renault logo"
+                class="mileage__img"
+              />
+              <h4 class="mileage__list-title">renault</h4>
+            </li>
+            <li class="mileage__item">
+              <img
+                src="./img/volvo-logo.jpg"
+                alt="Volvo logo"
+                class="mileage__img"
+              />
+              <h4 class="mileage__list-title">volvo</h4>
+            </li>
+            <li class="mileage__item">
+              <img
+                src="./img/tesla-logo.jpg"
+                alt="Tesla logo"
+                class="mileage__img"
+              />
+              <h4 class="mileage__list-title">tesla</h4>
+            </li>
+          </ul>
+          <h2 class="mileage__title">Придбати електроавто з пробігом</h2>
+          <img src="./img/buy-electric-car.jpg" alt="Three cars" />
+          <div class="mileage__container">
+            <div class="mileage__text-container">
+              <h3 class="mileage__text-container-title">
+                Інструкція для самостійного пошуку вживаних електромобілів
+              </h3>
+              <p class="mileage__text">
+                Для проведення пошуку використовуйте сайт www.che168.com та
+                мобільну версію www.guazi.com. Для перекладу використовуйте
+                браузер Google Chrome, де у рядку пошуку ви можете вибрати опцію
+                перекладу, оскільки обидві мови є досить складними. Для
+                перевірки можна переключитися на англійську мову.
+              </p>
+              <img src="./img/translater.jpg" alt="Translater" />
+            </div>
+            <ul class="mileage__container-list list">
+              <li class="mileage__container-item">
+                <h4 class="mileage__container-title">che168.com</h4>
+                <img
+                  src="./img/che168-site.png"
+                  alt="Iphone with che168.com website"
+                  class="mileage__container-list"
+                />
+              </li>
+              <li class="mileage__container-item">
+                <h4 class="mileage__container-title">guazi.com</h4>
+                <img
+                  src="./img/guazi-site.png"
+                  alt="Iphone with guazi.com website"
+                  class="mileage__container-list"
+                />
+              </li>
+            </ul>
+          </div>
+          <p class="mileage__inctruction-text">
+            Інструкція для самостійного пошуку вживаних електроавто на сайті
+            che168.com
+          </p>
+          <img src="./img/site.jpg" alt="Random website" />
+        </div>
+      </section>
+      <section class="price">
+        <div class="container">
+          <div class="price__text-container">
+            <h2 class="price__title">
+              Розрахунок вартості вживаного електроавто
+            </h2>
+            <ol class="price__list">
+              <li class="price__item">
+                <span class="price__bold-text">Вартість авто:</span>
+                <p class="price__text">
+                  наприклад ви бачите ціну 8.97, це означає 89700 юанів
+                </p>
+              </li>
+              <li class="price__item">
+                <span class="price__bold-text">Затрати по КитаюЖ</span>
+                <p class="price__text">в середньому 1000$, що включає:</p>
+                <ul class="price__item-list">
+                  <li class="price__item-item">
+                    <p class="price__item-text">
+                      Перереєстрація та анулювання автомобіля в Китаї
+                    </p>
+                  </li>
+                  <li class="price__item-item">
+                    <p class="price__item-text">
+                      Страхування перерестрованого автомобіля
+                    </p>
+                  </li>
+                  <li class="price__item-item">
+                    <p class="price__item-text">
+                      Виготовлення експортних документів
+                    </p>
+                  </li>
+                  <li class="price__item-item">
+                    <p class="price__item-text">
+                      Експортний контроль якості транспортного засобу
+                    </p>
+                  </li>
+                  <li class="price__item-item">
+                    <p class="price__item-text">
+                      Плата за обслуговування експортної компанії
+                    </p>
+                  </li>
+                </ul>
+              </li>
+              <li class="price__item">
+                <span class="price__bold-text"
+                  >Вартість доставки з Китаю в Україну:</span
+                >
+                <p class="price__text">
+                  від 2500$, в залежності від розмірів авто та споссобу доставки
+                </p>
+              </li>
+            </ol>
+          </div>
+          <div class="price__img-container">
+            <div class="price__tip">
+              <div class="price__hr"></div>
+              <p class="price__tip-text">
+                Якщо вам ніколи розбиратися з інформацією напишіть менеджеру і
+                він підбере електроавто по вашим параметрам
+              </p>
+            </div>
+            <img src="./img/tesla-car.png" alt="Tesla car" />
+            <button type="button" class="price__btn">
+              Звязатись з менеджером
+              <svg class="price__svg" width="109" height="84">
+                <use href="./img/icons.svg#icon-telegram"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

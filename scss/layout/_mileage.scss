@@ -1,0 +1,42 @@
+.mileage {
+  border-radius: 51px;
+  background: #dce6ec;
+}
+.mileage__list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.1);
+  padding: 30px 70px;
+  position: relative;
+  top: -90px;
+}
+.mileage__item {
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  gap: 5px;
+}
+.mileage__img--margin {
+  margin-bottom: 24px;
+}
+.mileage__list-title {
+  color: #696864;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.mileage__title {
+  margin-top: 20px;
+  margin-bottom: 35px;
+  color: $main-color;
+  text-align: center;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 120%; 
+}
